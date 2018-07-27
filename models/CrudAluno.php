@@ -59,7 +59,7 @@ class CrudAluno
                 $_SESSION['logado'] = 'sim';
                 $aluno = new CrudAluno();
                 $aluno->login();
-                header('location: ../views/formulario.php');
+                header('location: ../views/profile.html');
             }
         } catch
         (PDOException $e) {
